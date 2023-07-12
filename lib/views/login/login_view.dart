@@ -229,6 +229,9 @@ class LoginView extends StatelessWidget {
                 height: 400,
                 child: RewadsLayout(),
               ),
+              SizedBox(
+                height: size.height * .015,
+              ),
               Center(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -244,6 +247,15 @@ class LoginView extends StatelessWidget {
                       width: 150,
                     ),
                   ],
+                ),
+              ),
+              Text(
+                'Fashion Advice | VIP Access | Extra Savings',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: ProjectColors.customLightGrey,
+                  fontSize: size.aspectRatio * 30,
+                  fontWeight: FontWeight.w400,
                 ),
               ),
               SizedBox(
