@@ -6,7 +6,9 @@ class ProjectAssets {
   //REVIEW - here you can find assets paths
 
   static const String logo = 'assets/images/logo.png';
-  static const String crawnCheckIcon = 'assets/images/crawn_check_icon.png';
+  static const String crownCheckIcon = 'assets/images/crown_check_icon.png';
+  static const String crown = 'assets/images/crown.png';
+  static const String comment = 'assets/images/comment.png';
   static const String fans = 'assets/images/fans.jpg';
   static const String fikpkart = 'assets/images/fikpkart.png';
   static const String insiderText = 'assets/images/insider_text.png';

@@ -13,9 +13,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'tas',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: ProjectColors.customPink,
-        scaffoldBackgroundColor: ProjectColors.customLightGray,
+        scaffoldBackgroundColor: ProjectColors.customLightGrey,
       ),
       onGenerateRoute: ProjectRouter().onRouting,
       initialRoute: ProjectRouter.login,
