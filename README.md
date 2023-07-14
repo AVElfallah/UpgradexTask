@@ -1,16 +1,27 @@
-# upgradex_task
+# Upgradex task <a href="url"><img src="assets\images\logo.png" align="left" height="48" width="48" ></a>
 
-A new Flutter project.
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-## Getting Started
+**The task is to convert this web site (https://www.myntra.com/) && (https://www.myntra.com/myntrainsider?cache=false) to simple flutter application**
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots  📸
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- *home in web*
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+<div align='center'>
+   <a href="url"><img src="screenshots\home.gif" align="center" height="500" width="800" ></a>
+</div>
+
+- *login in web*
+
+<div align='center'>
+   <a href="url"><img src="screenshots\login.gif" align="center" height="500" width="800" ></a>
+</div>
+
+- *mobile app*
+
+<div align='center'>
+   <a href="url"><img src="screenshots\mobile.gif" align="center" height="500" width="300" ></a>
+</div>
