@@ -16,41 +16,42 @@ class GoalCriteriaWidget extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 8),
       child: SizedBox(
-        height: size.height * .1,
+        height: size.height * .15,
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Image.asset(
-              ProjectAssets.crownCheckIcon,
-              width: size.width * .14,
-              height: size.height * .2,
-            ),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.start,
+            Row(
               children: [
-                Text(
-                  goal!,
-                  style: TextStyle(
-                    fontSize: size.aspectRatio * 50,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white,
-                  ),
+                Image.asset(
+                  ProjectAssets.crownCheckIcon,
+                  width: 70,
+                  height: 70,
                 ),
-                SizedBox(height: size.height * .015),
-                Text(
-                  'You’ve Spent',
-                  style: TextStyle(
-                    fontSize: size.aspectRatio * 30,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.grey,
-                  ),
+                const SizedBox(width: 10),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      goal!,
+                      style: const TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const Text(
+                      'You’ve Spent',
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.grey,
+                      ),
+                    ),
+                  ],
                 ),
               ],
-            ),
-            SizedBox(
-              width: size.width * .22,
             ),
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -58,17 +59,17 @@ class GoalCriteriaWidget extends StatelessWidget {
               children: [
                 Text(
                   goalValue!,
-                  style: TextStyle(
-                    fontSize: size.aspectRatio * 40,
+                  style: const TextStyle(
+                    fontSize: 18,
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
                   ),
                 ),
                 SizedBox(height: size.height * .015),
-                Text(
+                const Text(
                   'Goal',
                   style: TextStyle(
-                    fontSize: size.aspectRatio * 30,
+                    fontSize: 18,
                     fontWeight: FontWeight.w600,
                     color: Colors.white,
                   ),

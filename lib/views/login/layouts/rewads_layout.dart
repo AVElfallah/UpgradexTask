@@ -3,9 +3,14 @@ import 'package:upgradex_task/utils/assets.dart';
 
 import '../components/rewards_card_widget.dart';
 
-class RewadsLayout extends StatelessWidget {
+class RewadsLayout extends StatefulWidget {
   const RewadsLayout({super.key});
 
+  @override
+  State<RewadsLayout> createState() => _RewadsLayoutState();
+}
+
+class _RewadsLayoutState extends State<RewadsLayout> {
   @override
   Widget build(BuildContext context) {
     return PageView(

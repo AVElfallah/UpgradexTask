@@ -7,7 +7,7 @@ class LineWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 10,
-      width: 115,
+      width: 85,
       decoration: BoxDecoration(
         gradient: const LinearGradient(
           colors: [

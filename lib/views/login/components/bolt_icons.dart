@@ -8,7 +8,7 @@ class BoltIcons extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       height: 30,
-      width: count == 1 ? 30 : (22 * count!).toDouble(),
+      width: count == 1 ? 30 : (23 * count!).toDouble(),
       child: Stack(
         children: [
           for (var i = 0; i < count!; i++)
@@ -19,17 +19,9 @@ class BoltIcons extends StatelessWidget {
                 backgroundColor: Colors.black,
                 radius: 14,
                 child: Container(
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: Colors.amber,
                     shape: BoxShape.circle,
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.amber.withOpacity(.3),
-                        blurRadius: 10,
-                        spreadRadius: 1,
-                        offset: const Offset(0, 0),
-                      ),
-                    ],
                   ),
                   child: const Icon(
                     Icons.bolt,

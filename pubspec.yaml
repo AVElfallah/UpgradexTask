@@ -15,6 +15,9 @@ dependencies:
     cupertino_icons: ^1.0.2
     get:
     easy_stepper: ^0.6.0
+    timeline_list:
+    timeline_tile: ^2.0.0
+    fan_carousel_image_slider: ^0.1.2
     
 
 dev_dependencies:

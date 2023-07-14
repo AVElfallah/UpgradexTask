@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:upgradex_task/views/home/home_view.dart';
 
+import '../views/home/home_view.dart';
 import '../views/login/login_view.dart';
 
 class ProjectRouter {
@@ -15,6 +15,8 @@ class ProjectRouter {
   //REVIEW - here you can find routes and redirect to them
   MaterialPageRoute? onRouting(settings) {
     switch (settings.name) {
+      case '/':
+        return MaterialPageRoute(builder: (_) => const LoginView());
       case login:
         return MaterialPageRoute(builder: (_) => const LoginView());
       case home:

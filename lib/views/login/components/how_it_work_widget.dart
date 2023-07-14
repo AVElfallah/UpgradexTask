@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:upgradex_task/utils/colors.dart';
-import 'package:upgradex_task/views/login/layouts/custom_stepper_widget.dart';
+
+import '../layouts/custom_stepper_widget.dart';
 
 class HowItWorkWidget extends StatelessWidget {
   const HowItWorkWidget({super.key});
@@ -10,18 +11,19 @@ class HowItWorkWidget extends StatelessWidget {
     var size = MediaQuery.of(context).size;
     return Container(
       margin: EdgeInsets.symmetric(horizontal: size.height * .015),
-      height: size.height * .30,
-      width: double.infinity,
+      height: 260,
+      width: 385,
       decoration: BoxDecoration(
         color: ProjectColors.customBlue,
         borderRadius: BorderRadius.circular(10),
       ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          SizedBox(
+          Container(
             width: double.infinity,
-            height: size.height * .19,
+            height: 195,
             child: const CustomStepperWidget(),
           ),
           Container(

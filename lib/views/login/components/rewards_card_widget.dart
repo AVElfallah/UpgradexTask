@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../utils/assets.dart';
-import '../../../utils/colors.dart';
+import '../../../../utils/assets.dart';
+import '../../../../utils/colors.dart';
 
 class RewardsCardWidget extends StatelessWidget {
   const RewardsCardWidget(
